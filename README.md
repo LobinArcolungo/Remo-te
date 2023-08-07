@@ -11,15 +11,16 @@ Now that's what we are talking about! and you ca find beelow all the documentati
 
 ## Materials
 ### for the electronic part we will need
-- Arduino nano for debugging
+- (optional) Arduino nano for code debugging
 - ESP 8266 or Arduino nano IoT for cloud connection
 - 2 relays 5Vdc 10A
 - 2 Micro Servo 9g MS18
 - one L298N stepper motor module
 - Power supply 12v 3A
-- A generic 12V pump
+- A generic 12V pump and a small pipe
 - A stepper motor 17OM-J349-G2VS Minabea Motor
 - A Breadboard to hold all the components
+- A triple plug to join al the power cables into one plug to be attached to the house power grid.
 
   
 ### for the mechanical part we will need
@@ -33,10 +34,32 @@ Now that's what we are talking about! and you ca find beelow all the documentati
 
 ## Circuit
 In the folder "circuit" can be seen the history of the circuits. The last version is this one
-file:///home/lobin/Documents/LdM_Davoli/remo-te/circuit_history/circuit_Remo_te_v4_squares.png
+circuit_history/circuit_Remo_te_v4_squares.png
 
 
-The board is powered from the USB port.
+The board is powered from the USB port. (in the picture is shown an arduino nano but i wil use an ESP 8266)
 the pin involved are:
+- 2,3,4,5 respectively for the first coil (2,3) and the second coil (4,5) of the stepper motor
+- 6 controls the servo motor which turns the boiler power on
+- 7 controls the power supply relay
+- 8 controls the "power router" relay which choses between pump and stepper motor 
+- 9 controls the servo motor which starts the falling process
+this is a photo of my setup.
+
+## Code
+The most updated code is the file remo_test_motor_tuning.ino
+It provides a series of functions callable from serial communication and allows to test all the functionalities one by one. The code is commented and i think it is pretty easy to understand
+
+
+## Mechanical building
+The assembling process is simple and easily customizable depending on your setting. the only few important rules are 
+- the water tank should lay below the boiler otherwise the pump will let the water flow into the boiler
+- the circuit board should rest in a place relatively safe from water drops
+- the motor should stay in the specific housing in the printed part "remo_te dock.stl"
+- the pulley should be attached to the motor 
+
+## Arduino cloud
+
 
 # Remo-te
+
