@@ -16,6 +16,9 @@ tra le altre cose ho impostato l'autenticazione di git tramite ssh e cominciato 
 Today I completely disassembled the first prototype made from a cardboard box and reassembled everything inside an IKEA plastic box.
 plastic box from IKEA.
 
+I took the opportunity to document each piece of the mechanism with a photo. the photos can be found in the
+photos
+
 Afterwards, during reassembly, I worked on perfecting the drop system driven by the second servo motor.
 After various trials and errors, I arrived at a functioning version of the mechanism, also thanks to the change of the servo power supply. Previously, the servo took power from the arduino and did not have enough power, whereas now it is connected to the stepper motor  management chip and therefore also has to be powered by the relais
 
