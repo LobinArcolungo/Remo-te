@@ -9,6 +9,8 @@ dopodichè durante il riassemblaggio mi sono dedicato al perfezionamento del sis
 risolto il problema del motore che faceva suoni strani impostando come numero di step di default una potenza di 2
 da 2000 adesso è 2048
 
+perforato il tappo del bollitore per poter infilare il tubo che porta l'acqua con la pompa
+
 tra le altre cose ho impostato l'autenticazione di git tramite ssh e cominciato il journaling... anche se in ritardo
 
 -- ENGLISH VERSION --
@@ -24,6 +26,8 @@ After various trials and errors, I arrived at a functioning version of the mecha
 
 solved the problem of the motor making strange sounds by setting the default step number to a power of 2
 from 2000 it is now 2048
+
+pierced the cap of the kettle in order to be able to insert the pipe carrying the water with the pump
 
 among other things I set up git authentication via ssh and started journaling... even if late
 
