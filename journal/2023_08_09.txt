@@ -1,0 +1,29 @@
+-- ENGLISH VERSION BELOW --
+
+stamattina ho fatto varie prove per testare la temporizzazione della funzione principale che fa tutto in autonomia e ho modificato il modo in cui il sistema aspetta il tempo di ebollizione. Evitando adesso di usare delay() in favore di un check sul tempo trascorso grazie alla funzione millis(). 
+
+Credo però che il chip sia leggermente overclockato o che ci sia qualche problema con questo sistema poichè su 100 secondi da attendere ne attende solo 80
+
+dopo pranzo mi sono messo a lavorare sul chip esp8266 MCU 12E. ho provato a caricare lo script senza successo, ho provato a caricare un blink senza successo
+Ho capito dopo un po' di tentativi di dover installare il driver cp2102
+
+dopo aver passato due ore a installare driver per la scheda mi sono accorto che il problema era nel cavo micro usb che stavo utilizzando.
+
+per un'altra ora ho cercato di connettere la scheda a arduino cloud. Ci sono riuscito ricreando il device da zero.
+
+fino a sera ho fatto delle prove per avere un riscotro tra l'attività del cloud e la scheda
+
+sono riuscito a ottenere un primo script di test più o meno funzionante ma devo migliorare il funzionamento perchè attualmente cambia da solo
+
+-- ENGLISH VERSION --
+
+after lunch i started working on the esp8266 MCU 12E chip. i tried loading the script without success, i tried loading a blink without success
+I realised after a few attempts that I had to install the cp2102 driver
+
+after spending two hours installing drivers for the board i realised that the problem was in the micro usb cable i was using.
+
+For another hour I tried to connect the board to the arduino cloud. I succeeded by recreating the device from scratch.
+
+Until the evening I did some tests to get a rescreen between the cloud activity and the board.
+
+I managed to get a first test script more or less working but I have to improve the functioning because currently it changes itself
