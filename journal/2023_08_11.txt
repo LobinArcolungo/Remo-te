@@ -1,0 +1,3 @@
+stamattina ho fatto delle prove con dei transistor in modo da poter pilotare tramite l'esp anche i servomotori e i relays.
+
+i servomotori funzionerebero anche a 3.3V ma avrebbero meno coppia in quanto la corrente consumata è minore. In verità i transistor per i servomotori non sono necessari in quanto prendono il segnale anche a 3.3V e basta alimentarli a 5v (con la terra in comune)

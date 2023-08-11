@@ -1,0 +1,20 @@
+
+Oggi ho dedicato un'ora di mattina a fare dei test sul timing di Arduino poichè impostando un timer i conti non mi tornavano es: timer per 100 secondi durava solo 80.
+quindi ho scritto lo script timing_test.ino per fare ddele prove. ho scoperto che quando si imposta un timer è sempre meglio specificare che quei numeri anche se immediati vanno percepiti come unsigned long con la dicitura numeroUL
+
+es: timer_value=60UL*1000UL per un timer di un minuto
+
+Durante la mattina ho modellato il pezzo mancante in 3d. questo pezzo fune da alloggio per un cuscinetto a sfera che agevola lo scorrimento dello spago. 
+
+ho sostituito un servo motore che si è guastato con uno funzionante e ho fissato tutto con colla a caldo
+
+Dopodichè ho raffinato il codice e fatto dei test assicurandomi che adesso la temporizzazione sia efficace.
+Il risultato è che lo è per 1000 ml
+
+resta da accertarsi che lo sia anche per 1500 ml e 500ml
+
+Di sera mi sono messo a ridisegnare il circuito per adattarlo all'ESP8266
+Ho constatato che 3.3v non sono sufficienti nè per i servomotori nè i relays, quindi devo trovare una soluzione magari con una alimentazione a 5v esterna 
+
+Cercando online ho capito che anche con un'alimentazione a 5V esterna, comunque i pin GPIO dellESP32 non sarebbero in grado di fornire la corrente sufficiente (3.3V) a qualsiasi circuito. perciò dovrò usare dei transistor come viene spiegato qui https://electronics.stackexchange.com/questions/296330/how-to-drive-a-relay-from-esp8266-gpio . 
+

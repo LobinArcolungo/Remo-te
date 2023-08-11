@@ -1,6 +1,0 @@
-{
-    "board": "arduino:avr:nano",
-    "port": "/dev/ttyACM0",
-    "sketch": "remo_te.ino",
-    "configuration": "cpu=atmega328"
-}
