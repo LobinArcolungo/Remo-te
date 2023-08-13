@@ -34,7 +34,7 @@ Now that's what we are talking about! and you ca find beelow all the documentati
 
 ## Circuit
 In the folder "circuit" can be seen the history of the circuits. The last version is this one
-![Alt Image of the circuit](circuit_history/circuit_Remo_te_v5.png)
+![Alt Image of the circuit](circuit_history/circuit_Remo_te_v9_ESP_transistor.png)
 
 
 The board is powered from the USB port. (in the picture is shown an arduino nano but i wil use an ESP 8266)
