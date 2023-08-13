@@ -1,0 +1,5 @@
+cercando online ho letto che è meglio non usare mai le funzioni delay() quando si interagisce con il cloud ma invece è meglio usare millis() e fare dei paragoni
+
+ho disabilitato il watchdog nel codice sperando di risolvere i problemi di connessione
+
+i problemi di connessione non sono risolti, anzi è molto lenta la connessione al cloud, perciò ppenso che sospenderò i test su cloud per concentrarmi sull'utilizzo della scheda per motori "8266 motor shield" sperando di riuscire ad utilizzarla per muovere il motore in quantità sufficiente a muovere il bollitore anche in risalita, cosa che per ora non si riesce a fare

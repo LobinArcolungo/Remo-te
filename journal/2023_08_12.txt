@@ -1,0 +1,5 @@
+quest mattina ho fatto molte prove fino a capire che c'era un filo malfunzionante nel circuito, ho risolto quel problema ma adesso sto provando a far funzionare tutto con l'ESP
+
+nel pomeriggio sono riuscito a far funzionare il dispositivo una volta facendolo partire dal cloud
+
+ma non sono riuscito a replicare l'esperimento perchè il motore non sembra più essere un grado di sorreggere il peso del bollitore e l'esp non si connette più all'arduino cloud
