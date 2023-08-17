@@ -36,7 +36,7 @@ Now that's what we are talking about! and you ca find beelow all the documentati
 
 ## Circuit
 In the folder "circuit" can be seen the history of the circuits. The last version is this one
-![Alt Image of the circuit](circuit_Remo_te_v11_esp_nano.png)
+![Alt Image of the circuit](circuit_history/circuit_Remo_te_v11_esp_nano.png)
 
 
 The boards are powered autonomously with the 5V 1A power supply.
@@ -54,7 +54,7 @@ The pins involved for the ESP are:
 - D8 (or GPIO 15) for TE_READY signal
 
 this is a photo of my setup.
-![Alt Photo of the circuit](circuit.jpg)
+![Alt Photo of the circuit](photos/circuit.jpg)
 
 and a circuit made with fritzing
 ![Alt Image made with fritzing]()
@@ -76,7 +76,7 @@ The assembling process is simple and easily customizable depending on your setti
 ## Video
 Here can be found the demostrating video of the functioning
 
-![Alt Image made with fritzing](video_version_3.mp4)
+![Alt Image made with fritzing](photos/video_version_3.mp4)
 
 
 
