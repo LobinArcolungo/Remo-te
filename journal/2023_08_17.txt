@@ -1,0 +1,6 @@
+oggi ho ritoccato il codice per fare in modo che la comunicazione sia efficiete e affidabile. ho fatto una prova dal cloud e ha funzionato
+
+dopo tutta la giornata passata a fare prove sono riuscito a ottenere una versione funzionante del software in due parti "esp_transmitter_UART" e "remo_te_nano_receiver_UART"  e dell'hardware, illustrato nel file "circuit_Remo_te_v11_esp_nano.png".
+
+Grazie all'applicazione IoT Remote è possibile inviare un comando all'esp, il quale comunicherà con la scheda nano grazie al protocollo UART ed essa provvederà ad inviare tutti i segnali necessari all'hardware. 
+Inoltre la scheda nano comunicherà a preparazione terminata alla scheda esp di cambiare lo stato della variabile "start_tea_making" nel cloud.

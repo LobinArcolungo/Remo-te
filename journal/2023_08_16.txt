@@ -1,0 +1,4 @@
+oggi ho deciso di scrivere nuovamente il programma su arduino nano e lasciare il comando delle operazioni al modulo esp8266 tramite comunicazione seriale UART tra le due schede. anche se è a 3.3v il logic high di esp8266 arduino dovrebbe riuscire comunque a vederlo come logic high
+
+dopo aver rimontato tutto con due schede ho fatto dei test, sono riuscito a configurare la comunicazione UART tra le due schede e ho cominciato a fare test sul funzionamento
+le parti singole funzionano tutte

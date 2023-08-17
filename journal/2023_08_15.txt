@@ -1,0 +1,3 @@
+dopo due giorni di pausa per varie motivazioni oggi ho smontato tutto e tenter di mettere in funzione il motor shield fatto per essere accoppiato con il chip 8266
+
+update: non sono riuscito a far funzionare in modo soddisfacente il motor shield. online ho trovato poca documentazione perciò domani inizierò a tentare un'altra soluzione che prevede mio malgrado l'utilizzo di una scheda arduino nano che possa gestire in modo semplice e rapido i segnali a 5v di cui ho bisogno
