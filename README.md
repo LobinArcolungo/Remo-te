@@ -36,7 +36,7 @@ Now that's what we are talking about! and you ca find beelow all the documentati
 
 ## Circuit
 In the folder "circuit" can be seen the history of the circuits. The last version is this one
-![Alt Image of the circuit](circuit_history/circuit_Remo_te_v12_esp_nano_color)
+![Alt Image of the circuit](circuit_history/circuit_Remo_te_v12_esp_nano_color.png)
 
 
 The boards are powered autonomously with the 5V 1A power supply.
