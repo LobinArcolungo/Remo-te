@@ -76,9 +76,6 @@ The assembling process is simple and easily customizable depending on your setti
 ## Video
 Here can be found the demostrating video of the functioning
 
-![Alt Image made with fritzing](photos/video_version_3.mp4)
+![Video showing remote tea making functionality](photos/video_version_3.mp4)
 
-
-
-# Remo-te
 
